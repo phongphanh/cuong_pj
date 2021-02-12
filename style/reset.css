@@ -1,0 +1,57 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, p {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  display: flex;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+button:focus,
+a:focus {
+  outline: none;
+}
+
+input {
+  /* border-color: #8d3534; */
+}
+
+input:focus,
+textarea:focus {
+  border-color: #8d3534 !important;
+  box-shadow: unset !important;
+}
+
+.btn.btn-primary {
+  background-color: #e89c5d;
+  border-color: #e89c5d;
+}
+
+.btn.btn-primary:hover {
+  background-color: #de946f;
+  border-color: #de946f;
+}
+
+body, html {
+  padding: 0;
+  margin: 0;
+  counter-reset: my-sec-counter;
+}
